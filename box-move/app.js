@@ -31,7 +31,8 @@ const containerRect = container.getBoundingClientRect();
 
   container.style.transition = '0.4s ease' ;
   container.style.left = xVal + 'px';
-  
+
+  // it map a value from one range to another range
 function mapRange(inputStart, inputEnd, outputStart, outputEnd, inputValue) {
   const inputRange = inputEnd - inputStart;
   const outputRange = outputEnd - outputStart;
