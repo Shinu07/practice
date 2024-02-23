@@ -1,0 +1,37 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+    background: black;
+    overflow: hidden;
+}
+
+div>h1{
+    font-family:Cochin, serif , sans-serif;
+}
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+  height: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(226, 194, 183);
+  border-radius: 20px;
+}
+
+.random-image {
+  position: absolute;
+  width: 150px;
+  height: 185px;
+  border-radius: 5px;
+  color: white;
+  transition: 1s ease-out, transform 0.2s ease-out;
+  overflow: hidden;
+}
